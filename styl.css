@@ -11,12 +11,12 @@ header {
 }
 
 .en-tête img {
-    width: 10rem;
-    height: 8rem;
+    width: 120px;
+    height: 120px;
 }
 
 .en-tête h1 {
-    font-size: 1.5rem;
+    font-size: 25px;
     margin-top: 3rem;
     transition: 0.5s;
 }
@@ -168,16 +168,18 @@ nav li a:hover {
 }
 
 .menu img  {
-    width: 200px;
+
+    width: 180px;
     height: 150px;
-    margin-left: 20px; 
+    justify-content: center;
+    text-align: center;
     box-shadow:0 10px 30px rgb(0, 0, 0, 0.5);  
 }
 
 .menu img:hover {
     width: 220px;
     height: 160px;
-    margin-left: 25pxpx;
+    margin-left: 25px;
 }
 
 .page2 {
@@ -300,8 +302,7 @@ nav li a:hover {
   }
 
   .gauche input {
-    width: 50%;
-    margin: 10px auto;
+   max-width: 100%;
   }
 
   .gauche {
@@ -313,7 +314,7 @@ nav li a:hover {
 
   .bouton {
     margin: 1rem auto;
-    width: 50%;
+    max-width: 100%;
   }
 
   .page1,
@@ -487,6 +488,23 @@ nav li a:hover {
 
   .footer-section {
     margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+  }
+
+  .m {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    
+
   }
 
   .footer-section p {
